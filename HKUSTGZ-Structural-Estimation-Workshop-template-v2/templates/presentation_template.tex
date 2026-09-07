@@ -1,0 +1,114 @@
+\documentclass[aspectratio=169]{beamer}
+
+\usetheme{default}
+\usepackage{amsmath,amssymb,booktabs,graphicx}
+\usepackage{hyperref}
+
+\title{Structural Estimation Workshop}
+\subtitle{Week XX: Topic}
+\author{Presenter Name}
+\institute{HKUST(Guangzhou)}
+\date{\today}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Roadmap}
+  \tableofcontents
+\end{frame}
+
+\section{Model and Economic Mechanism}
+
+\begin{frame}{Economic Environment}
+\begin{itemize}
+    \item Agents and choices
+    \item State variables
+    \item Timing
+    \item Key assumptions
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Model}
+\[
+    \text{Key equation / Bellman equation / demand system}
+\]
+\end{frame}
+
+\section{Identification}
+
+\begin{frame}{Parameters and Identification}
+\begin{itemize}
+    \item What are the estimated parameters?
+    \item Which moments / likelihood objects / equations identify them?
+    \item What assumptions are required?
+\end{itemize}
+\end{frame}
+
+\section{Data}
+
+\begin{frame}{Data}
+\begin{itemize}
+    \item Unit of observation
+    \item Main variables
+    \item Sample construction
+    \item Data-model mapping
+\end{itemize}
+\end{frame}
+
+\section{Estimation and Computation}
+
+\begin{frame}{Estimation Procedure}
+\begin{enumerate}
+    \item Construct estimation targets
+    \item Solve the model
+    \item Compute objective function
+    \item Optimize / simulate
+    \item Assess convergence and inference
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Numerical Implementation}
+\begin{itemize}
+    \item Optimization method
+    \item Integration / simulation
+    \item Initial values
+    \item Tolerances
+    \item Random seeds
+    \item Convergence diagnostics
+\end{itemize}
+\end{frame}
+
+\section{Replication}
+
+\begin{frame}{Replication Target}
+\begin{itemize}
+    \item Table / figure / moments / parameter estimates / counterfactual
+    \item Original paper result
+    \item Our replicated result
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Discrepancies and Debugging}
+\begin{itemize}
+    \item What matches?
+    \item What differs?
+    \item Why?
+    \item What numerical or data issues appeared?
+\end{itemize}
+\end{frame}
+
+\section{Discussion}
+
+\begin{frame}{Discussion}
+\begin{itemize}
+    \item Identification concerns
+    \item Computational bottlenecks
+    \item Sensitivity
+    \item Extensions to our own research
+\end{itemize}
+\end{frame}
+
+\end{document}
